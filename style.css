@@ -1,0 +1,166 @@
+* {
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main {
+  width: 90%;
+  margin: 0 auto;
+}
+section {
+  margin-bottom: 5rem;
+}
+.title {
+  padding-left: 1.4rem;
+  font-size: 9rem;
+  border-left: 0.7rem solid #8f1b5f;
+  border-radius: 0.4rem;
+}
+h2 {
+  font-size: 6.5rem;
+}
+h3 {
+  font-size: 4rem;
+}
+
+.mark {
+  color: rgba(68, 20, 52, 0.699);
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+p {
+  font-size: 2.8rem;
+  color: dimgray;
+}
+.first-container {
+  margin-right: 8rem;
+  flex: 1 1 40rem;
+}
+.image-container {
+  flex: 1 1 40rem;
+}
+
+.image-container img {
+  width: 100%;
+}
+.btn {
+  padding: 1.5rem 2.5rem;
+  color: white;
+  font-size: 2rem;
+  background: rgba(75, 7, 78, 0.809);
+  border: none;
+  border-radius: 0.9rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: rgb(97, 6, 85);
+}
+.my-mission {
+  text-align: center;
+}
+.cards {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  width: 200px;
+}
+.icon img {
+  max-width: 100%;
+}
+.card {
+  width: 400px;
+  height: 600px;
+  border-radius: 3.5rem;
+  box-shadow: 3px 3px 12px lightgray;
+}
+
+.card-one {
+  background: rgb(236, 221, 243);
+}
+.card-two {
+  background: mintcream;
+}
+.card-three {
+  background: snow;
+}
+.middle-section {
+  display: flex;
+}
+.first-container img {
+  width: 100%;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 2.5rem;
+  width: 600px;
+  background-color: linen;
+  box-shadow: 4px 4px 15px lightslategray;
+  border-radius: 2rem;
+  box-sizing: border-box;
+}
+input,
+textarea {
+  margin: 2rem 0;
+  border: 1px solid #cab0c7;
+  padding: 1rem 3rem;
+  border-radius: 0.5rem;
+  outline: 0;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #bd73b4;
+  box-shadow: 0px 0px 5px #a54099;
+}
+
+.some {
+  background-color: mistyrose;
+  padding: 0 2rem;
+  box-shadow: 4px 4px 15px lightslategray;
+  box-shadow: 0 0 5px;
+  border-radius: 1.5rem;
+}
+.extra-btn {
+  margin: 2rem 0;
+  color: white;
+  padding: 1.5rem 5rem;
+  background-color: #9e426d;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.8rem;
+}
+.special {
+  color: #c4655e;
+}
+
+.footer-section {
+  color: white;
+  background: black;
+  text-align: center;
+  height: 20vh;
+  padding: 1.5rem;
+}
+
+.footer-section h3 {
+  font-style: italic;
+}
+.footer-section p {
+  background-image: linear-gradient(dimgray, white);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
